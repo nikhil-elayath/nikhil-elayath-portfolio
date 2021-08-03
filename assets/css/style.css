@@ -11,7 +11,7 @@
 body {
   background: #ffffff;
   color: #898989;
-  font-family: 'Poppins', helvetica;
+  font-family: "Poppins", helvetica;
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
@@ -24,7 +24,12 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -49,7 +54,8 @@ a:hover {
   transition: all 0.5s ease-in-out 0s;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #b8a07e;
   text-decoration: underline;
 }
@@ -97,7 +103,8 @@ p {
   text-transform: uppercase;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
   color: #fff;
 }
 
@@ -184,7 +191,7 @@ nav {
 nav ul li {
   float: left;
   margin-right: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   margin-left: 40px;
 }
@@ -195,7 +202,7 @@ nav ul li a {
   display: block;
   font-size: 14px;
   color: #999999;
-  font-family: 'Poppins', helvetica;
+  font-family: "Poppins", helvetica;
   font-weight: 500;
   line-height: 16px;
   text-transform: uppercase;
@@ -225,9 +232,10 @@ nav ul li a {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/home-bg.jpg") repeat scroll center center/cover;
+  /* background: url("../img/home-bg.jpg") repeat scroll center center/cover; */
   height: 100vh;
   width: 100%;
+  background-color: black;
 }
 
 #hero .hero-content {
@@ -352,7 +360,7 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 28px;
   text-align: left;
 }
@@ -458,7 +466,8 @@ nav ul li a {
   transition: all 0.3s ease-in-out;
 }
 
-#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
+#portfolio #portfolio-flters li:hover,
+#portfolio #portfolio-flters li.filter-active {
   color: #b8a07e;
 }
 
@@ -496,7 +505,8 @@ nav ul li a {
   padding: 0;
 }
 
-#portfolio .portfolio-item .portfolio-info .preview-link, #portfolio .portfolio-item .portfolio-info .details-link {
+#portfolio .portfolio-item .portfolio-info .preview-link,
+#portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
   right: 40px;
   font-size: 24px;
@@ -504,7 +514,8 @@ nav ul li a {
   color: #b8a07e;
 }
 
-#portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
+#portfolio .portfolio-item .portfolio-info .preview-link:hover,
+#portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #cab89f;
 }
 
@@ -533,7 +544,8 @@ nav ul li a {
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
@@ -607,7 +619,8 @@ nav ul li a {
 /*--------------------------------------------------------------
 # Journal
 --------------------------------------------------------------*/
-#journal, #journal-blog {
+#journal,
+#journal-blog {
   height: auto;
   width: 100%;
   background: #f7f7f7;
@@ -678,7 +691,8 @@ nav ul li a {
   padding-bottom: 10px;
 }
 
-#contact input, #contact textarea {
+#contact input,
+#contact textarea {
   width: 100%;
   margin-bottom: 5px;
 }
