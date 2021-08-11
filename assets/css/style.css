@@ -679,6 +679,7 @@ nav ul li a {
 #contact {
   height: auto;
   width: 100%;
+  text-align: center;
 }
 
 .contact-details {
